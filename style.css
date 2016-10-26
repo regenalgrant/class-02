@@ -5,6 +5,7 @@
 }
 h1 {
 	background-image: url(http://placehold.it/350x150);
+  background: rgba(0, 0, 0, 0.41)
 }
 html{
 	box-sizing: border-box;
@@ -190,18 +191,12 @@ h1{
 		}
 		&:before{
 			transform: translateY(0);
-		}
-	}
-
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 }
-footer {
+.row {
 	background-color: transparent;
-	margin-bottom: 15px;
-	width: 100%;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
